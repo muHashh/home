@@ -5,7 +5,7 @@ const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      const istop = window.scrollY < 20;
+      const istop = window.scrollY < 5;
       if (istop !== isTop) {
         setIsTop(istop);
       }
