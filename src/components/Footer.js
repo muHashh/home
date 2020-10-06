@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer transparent">
-      Made by me
+      Made by me using React and Bootstrap
     </div>
   );
 }
