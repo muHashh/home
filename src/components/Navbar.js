@@ -5,7 +5,7 @@ const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      const istop = window.scrollY < 200;
+      const istop = window.scrollY < 20;
       if (istop !== isTop) {
         setIsTop(istop);
       }
@@ -14,8 +14,8 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-light ${
-        isTop ? "bg-transparent" : "bg-gradient"
+      className={`navbar navbar-expand-lg fixed-top navbar-dark ${
+        isTop ? "bg-transparent" : "transparent"
       } `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>

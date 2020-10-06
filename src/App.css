@@ -4,10 +4,10 @@
     136deg,
     #4484ce,
     #1ad7c0,
-    #ff9b11,
-    #9b59b6,
-    #ff7f7f,
-    #ecf0f1
+    #4484ce,
+    #1ad7c0,
+    #4484ce,
+    #1ad7c0
   );
 
   background-size: 1200% 1200%;
@@ -135,11 +135,14 @@
   }
 }
 
-.main-footer {
+.transparent {
+  background-color: rgba(0,0,0,0.15);
+}
+.footer {
   padding-bottom: 5mm;
   padding-top: 5mm;
   text-align: center;
-  color: #343a40;
-  background-color:#f8f9fa;
+  color: #F5F5F5;
   width: 100%;
 }
+
