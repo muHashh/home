@@ -7,6 +7,9 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
+
+  document.title = "Homepage";
+
   return (
     <div className="App">
       <header className="App-header">
