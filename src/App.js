@@ -23,12 +23,12 @@ function App() {
         <div className="container container-fluid text-center ">
           
           <h1 className="display-1">
-                Hassan Shahid
+            Hassan Shahid
           </h1>
 
           <br/>
           
-          <p> Computer Science and Physics student at the University of Glasgow</p>
+          <p>Computer Science and Physics student at the University of Glasgow</p>
           
           <br/><br/><br/><br/>
 

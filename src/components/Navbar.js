@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
+
   const [isTop, setIsTop] = useState(true);
+  const [isNavbarToggled, setIsNavbarToggled] = useState(false);
+
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      const istop = window.scrollY < 5;
+      const istop = window.scrollY < 20;
       if (istop !== isTop) {
         setIsTop(istop);
       }
@@ -14,12 +16,13 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-dark ${
-        isTop ? "bg-transparent" : "transparent"
-      } `}
+      id="navbar"
+      className={`navbar navbar-expand-lg fixed-top navbar-dark 
+        ${(isNavbarToggled || !isTop) ? "transparent" : "bg-transparent"} 
+      `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {"Home"}
+        Home
       </a>
       <button
         className="navbar-toggler"
@@ -29,6 +32,7 @@ const Navbar = (props) => {
         aria-controls="navbarTogglerDemo02"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        onClick={() => setIsNavbarToggled(!isNavbarToggled)}
       >
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -40,7 +44,7 @@ const Navbar = (props) => {
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
             >
-              Projects
+              <b>Projects</b>
             </a>
           </li>
           <li className="nav-item">
