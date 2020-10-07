@@ -38,7 +38,7 @@ function App() {
           <FontAwesomeIcon icon={faGithub} size="3x"/> 
           </a>
 
-          <a href="https://github.com/muhashh"
+          <a href="https://www.linkedin.com/in/hassan-shahid0/"
           className="fa-link"
           >
           <FontAwesomeIcon icon={faLinkedin} size="3x"/> 
