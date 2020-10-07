@@ -3,9 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer transparent">
-      Site construction in progress
-      <br/><br/>
-      Made by me using React and Bootstrap
+      <p>Site construction in progress</p>
+      <p>Made by me using React and Bootstrap</p>
     </div>
   );
 }

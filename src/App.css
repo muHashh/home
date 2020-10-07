@@ -146,10 +146,6 @@ a.fa-link, a.fa-link:link, a.fa-link:visited, a.fa-link:hover{
   background-color: rgba(0,0,0,0.15);
 }
 
-.navbar-transparent {
-  background-color: rgba(22, 22, 22, 0.918)
-}
-
 .footer {
   padding-bottom: 5mm;
   padding-top: 5mm;

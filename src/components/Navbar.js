@@ -15,15 +15,18 @@ const Navbar = (props) => {
   }, [isTop]);
 
   return (
+
+    // Navbar
     <nav
-      id="navbar"
-      className={`navbar navbar-expand-lg fixed-top navbar-dark 
+      className={`navbar navbar-expand-lg fixed-top navbar-dark
         ${(isNavbarToggled || !isTop) ? "transparent" : "bg-transparent"} 
       `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <a className="navbar-brand" href={process.env.PUBLIC_URL}>
         Home
       </a>
+
+      {/* Hamburger Menu toggle */}
       <button
         className="navbar-toggler"
         type="button"
@@ -37,8 +40,9 @@ const Navbar = (props) => {
         <span className="navbar-toggler-icon"></span>
       </button>
 
+      {/* Collapsible content */}
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+        <ul className="nav navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item">
             <a
               className="nav-link lead"
