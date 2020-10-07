@@ -19,7 +19,7 @@ const Navbar = (props) => {
       } `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {"<Home>"}
+        {"Home"}
       </a>
       <button
         className="navbar-toggler"
