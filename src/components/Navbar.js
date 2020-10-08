@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 const Navbar = (props) => {
 
@@ -13,6 +13,10 @@ const Navbar = (props) => {
       }
     });
   }, [isTop]);
+
+  const sendRequest = useCallback(() => {
+    setIsNavbarToggled(true); // Once navbar has been opened, it's always transparent
+  }, [])
 
   return (
 
@@ -35,7 +39,7 @@ const Navbar = (props) => {
         aria-controls="navbarTogglerDemo02"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        onClick={() => setIsNavbarToggled(!isNavbarToggled)}
+        onClick={sendRequest}
       >
         <span className="navbar-toggler-icon"></span>
       </button>
