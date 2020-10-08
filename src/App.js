@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -46,9 +47,17 @@ function App() {
           </div>
 
         </div>
-        <Footer/>
       </div>
 
+      <div className="jumbotron jumbotron-fluid bg-dark m-0 display-4 text-center text-light">
+          Projects
+          
+      </div>
+
+      <div className="bg-dark text-light fluid">  
+      
+      </div>
+      <Footer/>
     </div>
   );
 }
