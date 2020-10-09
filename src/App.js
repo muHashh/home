@@ -49,15 +49,10 @@ function App() {
         </div>
       </div>
 
-      <div className="jumbotron jumbotron-fluid bg-dark m-0 display-4 text-center text-light">
-          Projects
-          
-      </div>
+      <Projects/>
 
-      <div className="bg-dark text-light fluid">  
-      
-      </div>
       <Footer/>
+      
     </div>
   );
 }
