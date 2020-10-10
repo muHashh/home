@@ -7,8 +7,14 @@ function Projects() {
         maxWidth: '100px',
     };
 
+    const cardStyle = {
+        width: "18rem",
+        paddingTop:"5mm",
+        paddingBottom:"5mm"
+    }
+
     return (
-        <div className="container-fluid bg-dark p-5">
+        <div className="container-fluid bg-dark p-5" id="projects">
 
             <div className="jumbotron bg-dark jumbotron-fluid p-4 display-4 text-center text-light">
                 Projects
@@ -17,11 +23,8 @@ function Projects() {
             <div class="card-columns">
 
                 <div class="p-3">
-                    <div class="card text-light shadow-lg dark mb-3" style={{paddingTop:"5mm", paddingBottom:"5mm"}}>
+                    <div class="card text-light shadow-lg dark mb-3" style={cardStyle}>
                     <img class="card-img-top mx-auto d-block" src="https://avatars0.githubusercontent.com/u/39052374?s=400&v=4" style={imgStyle} alt="Havoc OS"/>
-                    <div class="text-center text-light">
-                        Havoc OS
-                    </div>
                     <br/>
                     <div class="card-body">
                         <h5 class="card-title"><b>About</b></h5>
@@ -40,11 +43,8 @@ function Projects() {
                 </div>
 
                 <div class="p-3">
-                    <div class="card text-light shadow-lg dark mb-3" style={{paddingTop:"5mm", paddingBottom:"5mm"}}>
+                    <div class="card text-light shadow-lg dark mb-3" style={cardStyle}>
                     <img class="card-img-top mx-auto d-block" src="https://img.xda-cdn.com/BBd2bXc1VPgMHAVuHN-WE47kUQo=/https%3A%2F%2Fraw.githubusercontent.com%2FDerpFest-OP5T%2Fplatform_packages_apps_Settings%2Ff8ad7bd7fa9e98459456c125bbdb44cd28d1d9f0%2Fres%2Fdrawable-nodpi%2Fderp_about.png" style={imgStyle} alt="Havoc OS"/>
-                    {/* <div class="text-center text-light">
-                        DerpFest OS
-                    </div> */}
                     <br/>
                     <div class="card-body">
                         <h5 class="card-title"><b>About</b></h5>
@@ -58,11 +58,8 @@ function Projects() {
                 </div>
 
                 <div class="p-3">
-                    <div class="card text-light shadow-lg dark mb-3" style={{paddingTop:"5mm", paddingBottom:"5mm"}}>
+                    <div class="card text-light shadow-lg dark mb-3" style={cardStyle}>
                     <img class="card-img-top mx-auto d-block" src="https://avatars0.githubusercontent.com/u/39052374?s=400&v=4" style={imgStyle} alt="Havoc OS"/>
-                    <div class="text-center text-light">
-                        Havoc OS
-                    </div>
                     <br/>
                     <div class="card-body">
                         <h5 class="card-title">Informartion</h5>

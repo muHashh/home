@@ -51,16 +51,12 @@ const Navbar = (props) => {
             <a
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
+              onClick={() => {
+                const anchor = document.querySelector('#projects');
+                anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }}
             >
               <b>Projects</b>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              <b>About</b>
             </a>
           </li>
         </ul>

@@ -6,12 +6,14 @@ import Projects from "./components/Projects";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
 
   document.title = "Homepage";
 
   return (
+    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
     <div>
       <header className="App-header">
         <Navbar/>
@@ -33,16 +35,12 @@ function App() {
             
             <br/><br/><br/><br/>
 
-            <a href="https://github.com/muhashh"
-            className="fa-link"
-            >
-            <FontAwesomeIcon icon={faGithub} size="3x"/> 
+            <a href="https://github.com/muhashh" className="fa-link">
+              <FontAwesomeIcon icon={faGithub} size="3x"/> 
             </a>
 
-            <a href="https://www.linkedin.com/in/hassan-shahid0/"
-            className="fa-link"
-            >
-            <FontAwesomeIcon icon={faLinkedin} size="3x"/> 
+            <a href="https://www.linkedin.com/in/hassan-shahid0/" className="fa-link">
+              <FontAwesomeIcon icon={faLinkedin} size="3x"/> 
             </a>
           </div>
 
@@ -54,6 +52,7 @@ function App() {
       <Footer/>
       
     </div>
+    </BrowserRouter>
   );
 }
 
