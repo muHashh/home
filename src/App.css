@@ -118,8 +118,9 @@
   color: white;
 }
 
-.App-link {
+a.App-link, a.App-link:hover {
   color: #61dafb;
+  padding-right: 5mm;
 }
 
 a.fa-link, a.fa-link:link, a.fa-link:visited, a.fa-link:hover{
