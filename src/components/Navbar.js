@@ -51,6 +51,8 @@ const Navbar = (props) => {
             <a
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
               onClick={() => {
                 const anchor = document.querySelector('#projects');
                 anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
