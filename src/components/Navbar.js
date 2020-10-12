@@ -26,7 +26,7 @@ const Navbar = (props) => {
         ${(isNavbarToggled || !isTop) ? "transparent" : "bg-transparent"} 
       `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL}>
+      <a className="navbar-brand" href="/">
         Home
       </a>
 
@@ -47,19 +47,19 @@ const Navbar = (props) => {
       {/* Collapsible content */}
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="nav navbar-nav mr-auto mt-2 mt-lg-0">
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-              onClick={() => {
-                const anchor = document.querySelector('#projects');
-                anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
-              }}
-            >
-              <b>Projects</b>
-            </a>
+          <li 
+            className="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show">
+              <a
+                className="nav-link lead"
+                href="#projects"
+                onClick={() => {
+                  const anchor = document.querySelector('#projects');
+                  anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }}>
+                <b>Projects</b>
+              </a>
           </li>
         </ul>
       </div>

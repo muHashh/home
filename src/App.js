@@ -6,14 +6,12 @@ import Projects from "./components/Projects";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { BrowserRouter } from 'react-router-dom';
 
 function App() {
 
   document.title = "Homepage";
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
     <div>
       <header className="App-header">
         <Navbar/>
@@ -52,7 +50,6 @@ function App() {
       <Footer/>
       
     </div>
-    </BrowserRouter>
   );
 }
 
