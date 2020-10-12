@@ -53,9 +53,9 @@ const Navbar = (props) => {
             data-target=".navbar-collapse.show">
               <a
                 className="nav-link lead"
-                href="#projects-section"
+                href="#projects"
                 onClick={() => {
-                  const anchor = document.querySelector('#projects-section');
+                  const anchor = document.querySelector('#projects');
                   anchor.scrollIntoView({ behavior: 'smooth',});
                 }}>
                 <b>Projects</b>
