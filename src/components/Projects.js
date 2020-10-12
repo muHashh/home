@@ -14,7 +14,7 @@ function Projects() {
     }
 
     return (
-        <div className="jumbotron bg-dark jumbotron-fluid p-4 m-0" id="projects">
+        <div className="jumbotron bg-dark jumbotron-fluid p-4 m-0" id="projects-section">
 
             <div class="container container-fluid">
 
