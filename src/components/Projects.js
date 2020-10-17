@@ -40,7 +40,7 @@ function Projects() {
                                 Many useful features that will blow your mind.
                                 All you can dream of and all you'll ever need.
                             </p>
-                            <h5 class="card-title"><b>Links</b></h5>
+                            <h5 class="card-title font-weight-bold">Links</h5>
                             <a href="https://mega.nz/folder/f4d3jC6b#Q2xDoEQvShPbzhnPe0F5hQ" className="App-link">Download</a>
                             <a href="https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/havoc-os-3-x-t4088681" className="App-link">XDA page</a>
                         </div>
@@ -56,12 +56,12 @@ function Projects() {
                             alt="Derpfest"
                         />
                         <div class="card-body">
-                            <h5 class="card-title"><b>About</b></h5>
+                            <h5 class="card-title font-weight-bold">About</h5>
                             <p class="card-text pb-4">
                                 DerpFest OS is a custom ROM that incorporates the best features around and 
                                 longs to support the community with its own unique features and contributions.
                             </p>
-                            <h5 class="card-title"><b>Links</b></h5>
+                            <h5 class="card-title font-weight-bold">Links</h5>
                             <a href="https://mega.nz/folder/fx8hBKCQ#ZZHdsWYgjZfXGgle1_Q3mw" className="App-link">Download</a>
                             <a href="https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/android-10-derpfest-t4097381" className="App-link">XDA page</a>
                         </div>

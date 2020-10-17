@@ -21,13 +21,13 @@ function App() {
         <div
           className="title jumbotron jumbotron-fluid bg-transparent text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
         >
-          <div className="container container-fluid text-center ">
+          <div className="container container-fluid text-center">
             
             <h1 className="display-1 pb-4">
               Hassan Shahid
             </h1>
             
-            <p className="pb-5">
+            <p className="p-5">
               Computer Science and Physics student at the University of Glasgow
             </p>
 
