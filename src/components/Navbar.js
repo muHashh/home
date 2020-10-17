@@ -51,7 +51,7 @@ const Navbar = (props) => {
             className="nav-item"
             data-toggle="collapse"
             data-target=".navbar-collapse.show">
-              <a
+              <a 
                 className="nav-link lead"
                 href="#projects"
                 onClick={() => {

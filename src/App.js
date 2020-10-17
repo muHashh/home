@@ -23,15 +23,13 @@ function App() {
         >
           <div className="container container-fluid text-center ">
             
-            <h1 className="display-1">
+            <h1 className="display-1 pb-4">
               Hassan Shahid
             </h1>
-
-            <br/>
             
-            <p>Computer Science and Physics student at the University of Glasgow</p>
-            
-            <br/><br/><br/><br/>
+            <p className="pb-5">
+              Computer Science and Physics student at the University of Glasgow
+            </p>
 
             <a href="https://github.com/muhashh" className="fa-link">
               <FontAwesomeIcon icon={faGithub} size="3x"/> 
