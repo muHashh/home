@@ -23,11 +23,11 @@ function App() {
         >
           <div className="container container-fluid text-center">
             
-            <h1 className="display-1 pb-4">
+            <h1 className="display-1 py-4 name-text">
               Hassan Shahid
             </h1>
             
-            <p className="p-5">
+            <p className="pb-5 pt-4 mx-4 sub-text">
               Computer Science and Physics student at the University of Glasgow
             </p>
 

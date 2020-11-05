@@ -147,3 +147,11 @@ a.fa-link, a.fa-link:link, a.fa-link:visited, a.fa-link:hover{
   background-color: #454d55;
 }
 
+.name-text {
+  font-size: clamp(14mm, 10vw, 25mm);
+}
+
+.sub-text {
+  font-size: clamp(4mm, 3vw, 6mm);
+}
+
