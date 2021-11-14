@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
+// import Footer from "./components/Footer";
+// import Projects from "./components/Projects";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -43,9 +43,9 @@ function App() {
         </div>
       </div>
 
-      <Projects/>
+      {/* <Projects/> */}
 
-      <Footer/>
+      {/* <Footer/> */}
       
     </div>
   );

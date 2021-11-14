@@ -58,7 +58,7 @@ const Navbar = (props) => {
                   const anchor = document.querySelector('#projects');
                   anchor.scrollIntoView({ behavior: 'smooth',});
                 }}>
-                <b>Projects</b>
+                {/* <b>Projects</b> */}
               </a>
           </li>
         </ul>
