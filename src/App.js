@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <header className="App-header">
-        <Navbar/>
+        {/* <Navbar/> */}
       </header>
 
       <div className="bgstyle">
